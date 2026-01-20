@@ -71,7 +71,7 @@ You can test the system using `curl` or the provided Python test script.
 
 * **Header Key**: `X-Razorpay-Signature` 
 
-### Method 1: Using the Test Runner (Recommended)
+### Method 1: Using the Test Runner
 
 Since generating HMAC signatures manually is difficult in the terminal, use the included script to simulate valid requests.
 
@@ -80,15 +80,7 @@ python test_runner.py
 
 ```
 
-### Method 2: Manual CURL (If signature is pre-calculated)
 
-```bash
-curl -X POST http://localhost:8000/webhook/payments \
--H "Content-Type: application/json" \
--H "X-Razorpay-Signature: <GENERATED_HMAC_HEX>" \
--d @mock_payloads/payment_authorized.json
-
-```
 
 ### Method 3: View History
 
