@@ -28,9 +28,10 @@ This project is a robust, secure, and idempotent webhook listener designed to ac
 
 ### 1. Clone the Repository
 
-git clone [https://github.com/amit9838/webhook-system.git](https://github.com/amit9838/webhook-system.git)
+git clone [https://github.com/amit9838/rozarpay-payments-webhook.git](https://github.com/amit9838/rozarpay-payments-webhook.git)
+
 ```bash
-cd webhook-system
+cd rozarpay-payments-webhook
 ```
 
 ### 2. Create a Virtual Environment
