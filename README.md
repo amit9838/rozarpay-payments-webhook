@@ -1,4 +1,4 @@
-# Minimal Webhook System for Payment Status Updates
+# Rozarpay Payments Webhook
 
 This project is a robust, secure, and idempotent webhook listener designed to accept, validate, and store payment status updates from providers like Razorpay or PayPal. It is built using **FastAPI** and **SQLAlchemy**.
 
@@ -21,9 +21,8 @@ This project is a robust, secure, and idempotent webhook listener designed to ac
 
 ---
 
-## 📊 System Architecture
-<img src=""/>
-
+## 📊 Sequence Diagram
+<img src="https://raw.githubusercontent.com/amit9838/rozarpay-payments-webhook/refs/heads/main/seuence_diagram.png">
 
 ## ⚙️ Setup & Installation
 
