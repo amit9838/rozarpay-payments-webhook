@@ -1,7 +1,7 @@
 {
     "openapi": "3.1.0",
     "info": {
-        "title": "CivicDataLab Webhook Assignment",
+        "title": "CiviRozarpay Payments Webhook",
         "version": "0.1.0"
     },
     "paths": {

@@ -11,7 +11,7 @@ from utils import verify_signature
 # Create tables
 Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="CivicDataLab Webhook Assignment")
+app = FastAPI(title="CiviRozarpay Payments Webhook")
 
 # --- Endpoints ---
 @app.post("/webhook/payments", status_code=status.HTTP_200_OK)
