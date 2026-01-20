@@ -58,6 +58,8 @@ uvicorn main:app --reload
 
 ```
 
+[API Specs](https://github.com/amit9838/rozarpay-payments-webhook/blob/main/openapi-specs.json)
+
 ---
 
 ## 🧪 Testing & Usage
